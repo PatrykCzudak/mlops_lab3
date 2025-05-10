@@ -56,4 +56,4 @@ jobs:
         run: uv run python main.py --script export
 
       - name: Build Docker image for ONNX inference
-        run: docker build -t polish-sentiment-app-onnx:latest
+        run: docker build -t polish-sentiment-app-onnx:latest .
