@@ -27,7 +27,7 @@ jobs:
           run: uv sync --group integration
           
         - name: Run ruff check
-          run: cuv run ruff check
+          run: uv run ruff check
           
         - name: Run pip-audit
           run: uv run pip-audit --vulnerability-service pypi
